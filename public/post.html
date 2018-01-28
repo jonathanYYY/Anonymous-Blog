@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/mdui/0.4.0/css/mdui.min.css">
+    <link href="./stylesheets/nprogress.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <script src="./javascripts/ajax.js"></script>
+    <title>C</title>
+</head>
+<body  class="mdui-theme-primary-pink mdui-color-theme-primary ">
+    <div class="mdui-container">
+      <!-- <button class="mdui-btn mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#dialog'}">open</button> -->
+      <div class="mdui-dialog" id="dialog">
+        <div class="mdui-dialog-content">  
+            <div class="mdui-textfield">
+                <label class="mdui-textfield-label">请输入用户名:</label>
+                <input class="mdui-textfield-input" type="text"/>
+            </div>
+        </div>
+        <div class="mdui-dialog-actions">
+          <button class="mdui-btn mdui-ripple" mdui-dialog-close>取消</button>
+          <button class="mdui-btn mdui-ripple" mdui-dialog-confirm>确定</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="http://pv.sohu.com/cityjson?ie=utf-8"></script>  
+    <script type="text/javascript">  
+        // alert(JSON.stringify(returnCitySN) )  
+    </script>
+    <script src="https://cdn.bootcss.com/mdui/0.4.0/js/mdui.min.js"></script>
+    <script src="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
+    <script src="./javascripts/core.js"></script>
+</body>
+</html>

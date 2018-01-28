@@ -1,0 +1,33 @@
+extends layout/layout
+block content
+  .mdui-appbar.mdui-appbar-fixed.mdui-color-white
+    .mdui-tab.mdui-tab-full-width.mdui-ripple-pink(mdui-tab="")
+      a.mdui-ripple(href="#home")#home_btn
+        i.mdui-icon.material-icons home
+        //- |                     
+        //- label home
+      |                 
+      a.mdui-ripple.mdui-tab-active(href="#talk")#talk_btn
+        i.mdui-icon.material-icons comment
+        //- |                     
+        //- label talk
+  .mdui-container#home
+    .row-padding
+      ul#ul
+    button.mdui-fab.mdui-color-theme-accent.mdui-fab-fixed.mdui-ripple
+      i.mdui-icon.material-icons add
+  #talk  
+    section#talkbox
+      #wordbox-container
+        #wordbox
+      |                 
+      #textbox
+        .mdui-textfield.mdui-textfield-floating-label
+          i.mdui-icon.material-icons message
+          |                         
+          label.mdui-textfield-label Message
+          |                         
+          textarea.mdui-textfield-input.mdui-typo
+        |                     
+        div#sendbutton
+          i.mdui-icon.material-icons send

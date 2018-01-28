@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/mdui/0.4.0/css/mdui.min.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <title>Talk</title>
+</head>
+<body class="mdui-theme-primary-pink mdui-theme-accent-pink">
+    <div class="mdui-container">
+            <div class="mdui-appbar mdui-appbar-fixed mdui-color-white">
+                    <div class="mdui-tab mdui-tab-full-width mdui-ripple-pink" mdui-tab>
+                        <a href="#" class="mdui-ripple" >
+                            <i class="mdui-icon material-icons">home</i>
+                            <!-- <label>home</label> -->
+                        </a>
+                        <a href="#talkbox" class="mdui-ripple mdui-tab-active" >
+                            <i class="mdui-icon material-icons">comment</i>
+                            <!-- <label>talk</label> -->
+                        </a>
+                    </div>
+                </div>  
+        <section id="talkbox">
+            <div id="wordbox-container">
+                <div id="wordbox">
+                    <!-- <li>
+                        <div class="mdui-chip mdui-color-white">
+                            <span class="mdui-chip-icon"><i class="mdui-icon material-icons">face</i></span>
+                            <span class="mdui-chip-title">Example Chip</span>
+                        </div>                        
+                    </li> -->
+                    <div>
+                        <div  id="word">测试字符</div>
+                        <div id="word_ts">2018/1/10 上午11:31:44</div>
+                    </div>
+                    <div >
+                        <div  id="word">测试字符13ewr5</div>
+                        <div id="word_ts">2018/1/10 上午11:31:44</div>
+                    </div>
+                    <div>
+                        <div  id="word">测试字符右方wersdf方wersdf方wersdf方wersdf撒打算打dfs撒打算三大个人</div>
+                        <div id="word_ts">2018/1/10 上午11:31:44</div>
+                    </div>
+            </div>
+            <div id="textbox">
+                <div class="mdui-textfield mdui-textfield-floating-label">
+                    <i class="mdui-icon material-icons">message</i>
+                    <label class="mdui-textfield-label">Message</label>
+                    <textarea class="mdui-textfield-input mdui-typo"></textarea>
+                </div>
+                <div id="sendbutton" ><i class=" mdui-icon material-icons ">send</i></div>
+            </div>
+        </section>
+    </div>
+<script src="http://cdn.bootcss.com/mdui/0.4.0/js/mdui.min.js"></script>
+</body>
+</html>

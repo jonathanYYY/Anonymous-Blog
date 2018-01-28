@@ -1,0 +1,192 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    z-index: 1;
+}
+.row-padding{
+    padding-top: 48px;
+}
+.mdui-row {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.mdui-card{
+    background-color: transparent;
+}
+.mdui-card-primary,
+.mdui-card-content{
+    z-index: -1;
+}
+.mdui-card-primary{
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+#add-button{
+    z-index: 100;
+}
+.layui-layer-btn a{
+    color:#FF4081 !important;
+    border: 0 !important;
+    background-color: transparent !important;
+}
+.layui-layer-title{
+    background-color: transparent !important;
+    border: 0 !important;
+    padding: 24px 80px 0 20px !important;
+}
+.layui-layer-input{
+    border: 0 !important;
+    border-bottom: 1px solid rgba(0,0,0,.42) !important;
+    outline:none  !important;
+    font-size: 16px !important;
+    font-family: Roboto,Noto,Helvetica,Arial,sans-serif !important;
+    cursor: pointer;
+}
+/* .layui-layer-input:hover{
+    box-shadow:  0 1px 0 0 black !important;
+} */
+.layui-layer-input-focus{
+    /* border-bottom-color: #FF4081 !important; */
+    box-shadow:  0 1px 0 0 #FF4081 !important;
+}
+.layui-layer-prompt .layui-layer-content{
+    padding: 0 24px 18px 24px!important;
+}
+
+
+
+
+
+
+
+/* 注释注释注释注释注释注释注释注释注释注释注释 */
+#talk{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position:relative;
+    /* left: 0;
+    top: 96px; */
+}
+section{
+  font-size: 14px;
+  line-height: 1.3125;
+  font-weight: normal;
+  background-color: white;
+  position: absolute;
+   left: 0;
+   top: 48px;
+   width: 100%;
+   height: calc(100% - 48px);
+   /* height: 100%; */
+   display:block;
+   z-index: 0;
+}
+#wordbox-container{
+    height: calc(100% - 65px);
+    width: 100%;
+    padding-top:1.3125em;
+    position: absolute;
+    display: block;
+}
+#wordbox{
+    /* padding-left:0 .65625em;
+    padding-right:0 .65625em; */
+    padding: 0;
+    /* width: 100%; */
+    /* height: auto; */
+    overflow:auto;
+    /* height: 100%; */
+    margin: 0;
+    padding-bottom: 66px;
+    position: absolute;
+    display:block;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+#wordbox>div{
+    width: 100%;
+    margin-bottom: 1.3125em;
+    position: relative;
+    /* align-items:flex-end; */
+    display:inline-flex;
+    flex-direction:row-reverse;
+}
+#word{ 
+    max-width:75%;
+    margin: 0  0.65625em;
+    background-color:#1b95e0;
+    /* margin:  6px 10px; */
+    padding: .65625em .984375em;
+    color: white;
+    /* border-color: #1b95e0; */
+    display:inline-block;
+    align-self: flex-end;
+    border-radius: 1.25rem;
+    border-bottom-right-radius: 0;
+
+}
+.pink{
+    /* border-radius: 1.25rem; */
+    background-color:pink;
+    /* border-bottom-left-radius: 0; */
+}
+/* .right{ 
+    background-color:#1b95e0;
+    border-radius: 1.25rem;
+    border-bottom-right-radius: 0;
+    align-self: flex-end;
+} */
+
+#word_ts{
+    margin-left:0.65625em;
+    margin-right: 0.65625em;
+    margin-top: 2px;
+    align-self: flex-end;
+    display: none;
+}
+#textbox{
+    display:block;
+    position: fixed;
+    bottom: 0;
+    border-top: #cfcfcf 1px solid;
+    width: 100%;
+    background-color: white;
+    float: left;
+    
+}
+#textbox div:nth-child(1){
+    width: calc(100% - 36px);
+    margin: 0;
+    padding-top: 0px;
+}
+.textarea{
+   font-size: 16px;
+   width: 84%;
+   margin: 6px 5px;
+   resize: none;
+   background-color: white;
+}
+
+#sendbutton{
+   width: 36px;
+   height: 36px; 
+   margin-bottom: 8px;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   cursor: pointer;
+}
+
+#sendbutton i{
+    padding: 6px;
+}
+/* 注释注释注释注释注释注释注释注释注释注释注释 */

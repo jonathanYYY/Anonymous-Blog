@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    |     
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    |     
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    |     
+    script(src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js")
+    |     
+    link(rel="stylesheet", href="https://cdn.bootcss.com/mdui/0.4.0/css/mdui.min.css")
+    |     
+    link(href="./stylesheets/nprogress.min.css", rel="stylesheet")
+    |     
+    link(rel="stylesheet", href="./stylesheets/style.css")
+    |     
+    script(src="./javascripts/ajax.js")
+    |     
+    title C
+  body.mdui-theme-primary-pink.mdui-color-theme-primary
+    .mdui-container
+      // <button class="mdui-btn mdui-color-theme-accent mdui-ripple" mdui-dialog="{target: '#dialog'}">open</button>
+      #dialog1.mdui-dialog
+        .mdui-dialog-content
+          .mdui-textfield
+            label.mdui-textfield-label 请输入用户名:
+            |                 
+            input.mdui-textfield-input(type="text")
+        |         
+        .mdui-dialog-actions
+          button.mdui-btn.mdui-ripple(mdui-dialog-close="") 取消
+          |           
+          button.mdui-btn.mdui-ripple(mdui-dialog-confirm="") 确定
+    |     
+    script(type="text/javascript", src="http://pv.sohu.com/cityjson?ie=utf-8")
+    |   
+    |     
+    script(type="text/javascript").
+      // alert(JSON.stringify(returnCitySN) )
+    |     
+    script(src="https://cdn.bootcss.com/mdui/0.4.0/js/mdui.min.js")
+    |     
+    script(src="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js")
+    |     
+    script(src="./javascripts/core.js")
